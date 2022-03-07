@@ -23,7 +23,7 @@ A firewall acts as a gatekeeper or traffic controller that filters the connectio
 
 ## **Types of firewalls**
 
-Firewalls are either categorised by the way they filter data or by the system they protect.When categorising by what they protect, the two types are :
+Firewalls are either categorised by the way they filter data or by the system they protect. When categorising by what they protect, the two types are :
   1. <details><summary>Network based firewalls. </summary>
                 <p>Often hardware based like <a href="https://www.bitdefender.com/smart-home/">Bitdefender BOX</a>,<a href="https://www.cisco.com/c/en_in/products/security/asa-firepower-services/index.html"> Cisco ASA 5500-X</a>, etc.</p></details>
   2. <details><summary>Host based firewalls. </summary>
@@ -35,7 +35,7 @@ When categorising by the filtering method, the main types are:
 
 [<img style="float: right;" src="packet1.png" height="250">](packet1.png "A data packet")
 
--  When a packet passes through a packet-filtering firewall, Its source, destination address, protocol, and destination port number are checked..
+-  When a packet passes through a packet-filtering firewall, Its source, destination address, protocol, and destination port number are checked.
  
  - The packet is dropped if it does abide the firewall's rule set.
  - It examines each packet independently and does not know whether any given packet is part of an existing stream of traffic.
@@ -60,7 +60,7 @@ When categorising by the filtering method, the main types are:
 
 ### 3. **Application layer and proxy firewalls**
 
-- This type works at the application layer while the previous types work at the network layer.
+- This type works at the [application layer](https://en.wikipedia.org/wiki/Application_layer) while the previous types work at the [network layer](https://en.wikipedia.org/wiki/Network_layer).
 - It examines the payload to distinguish valid requests from malicious code disguised as a valid request for data.
 - The presence of the proxy server makes it hard for the attacker to discover where the network actually is and creates another layer of security.
 - The key benefit of this type is its ability to block specific content such as certain websites, known malware and to recognise when certain applications or protocols are being misused.
@@ -73,7 +73,12 @@ When categorising by the filtering method, the main types are:
 - With the knowledge of other types, this type makes the decision-making process of the firewall more powerful. 
 
 
-## *Keep your softwares updated & Never turn your firewall off!!*
+## **Good practices to secure your device**
+
+- Never turn your firewall off!
+- Keep your software updated.
+- Scan the portable devices with the help of Antivirus before connecting.
+- Beware of the connections that you add as an exception to the firewall.
 
 
 ## References
