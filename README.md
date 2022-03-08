@@ -6,7 +6,7 @@
 
 ***Firewall*** is a software program or computer hardware that can protect our network from external network or internet. 
 
-It prevents from:
+It prevents :
 
 * unauthorsied access to our private data stored in our computer.
 * malicious software from infecting your computer.
